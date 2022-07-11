@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+  
+  <body>
+
+  	<script src = "js/models.js"></script>
+    <script src = "socket.io/socket.io.js"></script>
+
+    <canvas id = "canvas" width = 400 height = 225></canvas>
+    <button onClick = "fullscreen();"> + </button>
+    
+    <style>
+
+    	#canvas{
+
+		    image-rendering: optimizeSpeed;
+		    image-rendering: -moz-crisp-edges;
+		    image-rendering: -webkit-optimize-contrast;
+		    image-rendering: optimize-contrast;
+		    image-rendering: pixelated;
+		    -ms-interpolation-mode: nearest-neighbor;
+		    border: 1px solid #ddd;
+		}
+        #defaultCanvas0{
+
+            width : 0px;
+            height: 0px;
+        }
+    </style>
+    <script src = "js/socket.js"></script>
+    <script src = "js/game.js"></script>
+
+
+  </body>
+</html>
